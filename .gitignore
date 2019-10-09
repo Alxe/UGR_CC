@@ -1,0 +1,9 @@
+# Turn gitignore into a whitelist, using "not" rules.
+*
+
+# Allow subfolders
+!*/
+
+# Allow selected files
+!.gitignore
+!README.md

@@ -1,1 +1,48 @@
-<mxfile host="www.draw.io" modified="2019-10-26T08:44:04.251Z" agent="Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0" etag="kGxRcLWOyaWvVezQH4L5" version="12.1.7" type="github" pages="1"><diagram id="9vI_eSu2mPtQ4VrE0OSb" name="Page-1">dZHBDoIwDIafZvexYeIdUS+eOHheWGVLBiVjBPTphVDEBU16aL/+3b91TGb1ePGqNTfU4JjgemTyxIRIUiHYHFw/F3JMCVTeahJtoLAvIMiJ9lZDFwkDogu2jWGJTQNliJjyHodY9kAXu7aqgh0oSuX29G51MPSKA9/4FWxlVueEU6dWq5hAZ5TG4QvJnMnMI4Ylq8cM3Ly8dS/L3PlP93MxD034MTAl29lTEf2QzN8=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-27T11:29:03.295Z" agent="Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0" etag="Cb3WbC70wz9QSYPxXHcn" version="12.1.7" type="github" pages="1">
+  <diagram id="9vI_eSu2mPtQ4VrE0OSb" name="Exchange">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry width="690" height="420" as="geometry"/>
+        </mxCell>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-2" value="&lt;div&gt;Autenticación&lt;/div&gt;&lt;div&gt;y Usuarios&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="302" y="308" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="FWcQYHTu8E3vEcSChjAO-5" target="FWcQYHTu8E3vEcSChjAO-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-4" value="&lt;div&gt;Subscripción a movimientos&lt;br&gt;para actualizar estadísticas&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=#ffffff;verticalAlign=top;" edge="1" parent="1" source="FWcQYHTu8E3vEcSChjAO-5" target="FWcQYHTu8E3vEcSChjAO-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="527" y="98"/>
+              <mxPoint x="197" y="98"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-5" value="&lt;div&gt;Estadísticas&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="467" y="158" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-6" value="&lt;div&gt;Verifica la información &lt;br&gt;&lt;/div&gt;&lt;div&gt;de los usuarios&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=#ffffff;verticalAlign=top;" edge="1" parent="1" source="FWcQYHTu8E3vEcSChjAO-7" target="FWcQYHTu8E3vEcSChjAO-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-7" value="&lt;div&gt;Transacciones&lt;/div&gt;&lt;div&gt;y Pagos&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="137" y="158" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-8" value="&lt;div&gt;Solicitud, subscripción &lt;br&gt;y/o generación de &lt;br&gt;nuevos movimientos: &lt;br&gt;pagos y/o gastos&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FWcQYHTu8E3vEcSChjAO-11" target="FWcQYHTu8E3vEcSChjAO-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-9" value="&lt;div&gt;Inscripción al servicio&lt;/div&gt;&lt;div&gt;Incorporación a grupos&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FWcQYHTu8E3vEcSChjAO-11" target="FWcQYHTu8E3vEcSChjAO-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-10" value="Solicitud de estadísticos &lt;br&gt;de un usuario, grupo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FWcQYHTu8E3vEcSChjAO-11" target="FWcQYHTu8E3vEcSChjAO-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="FWcQYHTu8E3vEcSChjAO-11" value="&lt;div&gt;Interfaces &lt;br&gt;&lt;/div&gt;&lt;div&gt;de Usuario&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="302" y="580" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
